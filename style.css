@@ -1,0 +1,30 @@
+
+.menu{
+    text-align: center;
+    background-color: aquamarine;
+    font-size: 30px;
+    color: brown;
+
+}
+.h2{
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+}
+.dangnhap{
+    text-align: center;
+    margin: 1%;
+    width: 100%;
+    height: 100%;
+}
+.nut{
+    background-color: black;
+    color: red;
+   align-items: center;
+}
+.logo>img{
+    max-width: 1000px;
+    width: 200px;
+    height: 300px;
+   
+ }
