@@ -1,0 +1,43 @@
+.table1{
+     margin: auto;
+    border: 5px solid blue;
+    width: 500px;
+    height: 500px;
+    table-layout: fixed;
+    width: 1000px;
+}
+.table-auto {
+    table-layout: auto;
+}
+.table1 td {
+    border: 1px solid #343333;
+}
+th{
+    width: 20px;
+    height: 30px;
+    background-color: rgb(224, 190, 157);
+    text-align: center;
+    border: 1px solid black;
+    vertical-align: auto;
+    color:red;
+}
+tr{
+    width: 10px;
+    height: 20px;
+    background-color: rgb(197, 226, 173);
+    text-align: center;
+    border: 1px solid black;
+    vertical-align: auto;
+    color: red;
+}
+.caption { 
+    caption-side: top;
+    color: #e91e63;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #ff572282;
+    border: 1px solid red;
+    height: 100px;
+    
+}
