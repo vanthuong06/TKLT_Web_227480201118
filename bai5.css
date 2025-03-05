@@ -1,0 +1,41 @@
+body{
+    border: 1px solid #b1154a;
+    width: auto;
+    margin: 500px;
+    margin-top: 5%;
+}
+nav{
+    width: auto;
+    margin: 30px;;
+}
+p{
+    font-size: 20px;
+    margin-top: 2%;
+    padding-left: 2%;
+}
+h2{
+    font-size: 100x;
+    text-align: center;
+}
+.mot{
+    font-family: verdana;
+    color: black;
+    font-size: 13px;
+}
+.hai{
+    font-family: tahoma;
+    color: black;
+    font-size: 13px;
+}
+.ba{
+    font-family: 'Times New Roman';
+    color: black;
+    font-size: 13px;
+}
+.bon{
+    font-family: verdana;
+    color: black;
+    font-size: 13px;
+    outline-style: 2px
+    
+}

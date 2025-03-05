@@ -1,0 +1,13 @@
+.menu{
+    height: 100px;
+    max-width: 1500px;
+    font-size: 50px;
+    background-color: aqua;
+    border: 1px solid red;
+    word-spacing: 1cqi;
+    float: left;
+    letter-spacing: 2px;
+    margin-left: 300px;
+}
+
+    

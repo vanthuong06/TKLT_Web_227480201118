@@ -1,0 +1,12 @@
+body{
+    width: 1000px;
+    margin: auto;
+    margin-top: 5%;
+    border: 1px solid brown;
+    
+}
+h1{
+    font-size: 50px;
+    color: red;
+    text-align: center;
+}
