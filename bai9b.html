@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body>
+    <script lang="Javascript">
+        var soluong, x;
+        var ds = new Array(100);
+        soluong = prompt("Bạn cần nhạp bao nhieu người:", 5);
+        for(i=0; i<soluong; i++){
+            ds[i] = prompt("Nhập vào họ tên:");
+        }
+        ds.sort();
+        document.write("<h1> Danh sác đã sắp xếp là:</h1>");
+        for (x in ds) 
+        {
+            document.write(ds[x]);
+            document.write("<br>");
+        }
+    </script>
+</body>
+</html>
