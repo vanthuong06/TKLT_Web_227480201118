@@ -1,30 +1,53 @@
-
-.menu{
+h2{
     text-align: center;
-    background-color: aquamarine;
-    font-size: 30px;
     color: brown;
-
 }
-.h2{
+form{
     text-align: center;
-    color: blue;
-    font-size: 50px;
 }
-.dangnhap{
+p{
     text-align: center;
-    margin: 1%;
-    width: 100%;
-    height: 100%;
+    color: blueviolet;
 }
-.nut{
+.chessboard {
+    width: 320px;
+    height: 320px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    border: 2px solid black;
+}    
+.square {
+    width: 40px;
+    height: 40px;
+}
+.black {
     background-color: black;
-    color: red;
-   align-items: center;
 }
-.logo>img{
-    max-width: 1000px;
-    width: 200px;
-    height: 300px;
-   
+.white {
+    background-color: white;
+}
+.banco{
+    margin-left: 30%;
  }
+h3{
+    margin-left: 20%;
+    color: blue;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    padding: 5px;
+    text-align: left;
+    vertical-align: top;
+    color: rgb(56, 27, 65);
+}
+pre {
+    font-size: 16px;
+    font-family: monospace;
+}
+php{
+    align-items: center;
+}
